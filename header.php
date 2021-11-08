@@ -10,6 +10,10 @@
      <title>header</title>
 </head>
 <body>
+<?php 
+    require('connexion.php');
+?>    
+
     <header>
         <h1>header</h1>
     </header>

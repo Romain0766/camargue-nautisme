@@ -3,7 +3,9 @@
     ?>
     <main>
         
-    <h1>equipement</h1>
+    <?php 
+        echo $equipement['e_info'];
+    ?>
     </main>    
 
     <?php
