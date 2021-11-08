@@ -14,7 +14,7 @@
 <header> 
   <div id="root">
     <div id="topnav" class="topnav">
-      <a id="home_link" class="topnav_link" href="/">HOME</a>
+      <a id="home_link" class="topnav_link" href="./index.php">HOME</a>
   
       <!-- Classic Menu -->
       <nav role="navigation" id="topnav_menu">
@@ -35,7 +35,7 @@
       <!-- Responsive Menu -->
       <nav role="navigation" id="topnav_responsive_menu">
         <ul>
-          <li><a href="/">HOME</a></li>
+          <li><a href="./index.php">HOME</a></li>
           <li><a href="/about">ABOUT</a></li>
           <li><a href="/contact-us">CONTACT</a></li>
           <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
