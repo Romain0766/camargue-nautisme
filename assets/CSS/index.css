@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-color: #FFF6F3;
+}
+h1, h2, h3, h4, p {
+    font-family: 'Open Sans', sans-serif;
+}
+.background{
+    background-size: cover;
+    background-image: url(../);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.assurance{
+    display: flex;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color:#D97247;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.centre{
+ display: flex;
+ justify-content: center;
+}
+.assurance h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+.chevron_circle2{
+    color: white;
+}
+.assurance div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px #FFF6F3;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+.equipement{
+    border: none !important;
+}
+.assurance img{
+    width: 4rem;
+}
+
+.contenuHP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 22px;
+    color: #191818;
+}
+.reservez{
+    border: none;
+    background-color:#D97247;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF6F3;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.ligne{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.ligne h2{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.comprendre{
+    display: block;
+    align-items: center;    
+}
+.lieu img{
+    width: 5rem;
+}
+.lieu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.lieu1, .lieu2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D97247;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 20px #7a7271;
+}
+.contenu_page{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.vignette1 img, .vignette2 img {
+    width: 350px;
+    border-radius: 7px;
+}
+.contenu_page h3 {
+    color:#D97247 ;
+}
+.contenu_page p {
+    margin-bottom: 20px;
+}
+.chevron_circle{
+    color:#D97247;
+    font-size: 20px;
+}
+.vignette2{
+    margin-top: 20px;
+}
+.vignette1, .vignette2{
+    background-color: #FCE8E3;
+    border-radius: 7px;
+}
