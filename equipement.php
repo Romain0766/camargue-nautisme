@@ -3,7 +3,7 @@
     ?>
     <main>
         
-    
+    <h1>equipement</h1>
     </main>    
 
     <?php
