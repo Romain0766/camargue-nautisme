@@ -14,14 +14,13 @@
 <header> 
   <div id="root">
     <div id="topnav" class="topnav">
-      <a id="home_link" class="topnav_link" href="/">HOME</a>
+      <a id="home_link" class="topnav_link" href="/">home</a>
   
       <!-- Classic Menu -->
       <nav role="navigation" id="topnav_menu">
-        <a class="topnav_link" href="/about">ABOUT</a>
-        <a class="topnav_link" href="/contact-us">CONTACT</a>
-        <a class="topnav_link" href="/privacy">PRIVACY</a>
-        <a class="topnav_link" href="/terms-and-condition">TERMS AND CONDITION</a>
+        <a class="topnav_link" href="/contact-us">lieu</a>
+        <a class="topnav_link" href="/privacy">reservation</a>
+        <a class="topnav_link" href="/terms-and-condition">equipement</a>
 
       </nav>
   
@@ -35,11 +34,10 @@
       <!-- Responsive Menu -->
       <nav role="navigation" id="topnav_responsive_menu">
         <ul>
-          <li><a href="/">HOME</a></li>
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="/contact-us">CONTACT</a></li>
-          <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
-          <li><a href="/terms-and-conditions">TERMS AND CONDITIONS</a></li>
+          <li><a href="./index.php">home</a></li>
+          <li><a href="./lieu.php">lieu</a></li>
+          <li><a href="./reservation.php">reservation</a></li>
+          <li><a href="./equipement.php">equipement</a></li>
         </ul>
       </nav>
     </div>
