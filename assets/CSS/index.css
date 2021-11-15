@@ -137,3 +137,13 @@ h1{
     background-color: #FCE8E3;
     border-radius: 7px;
 }
+
+#carte
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: violet;
+    padding: 10px 10px 10px 0;
+}
