@@ -13,9 +13,7 @@
 
 <body>
 <body>   
-  <?php
-  require('./include/connexion.php');
-  ?>
+
 
 
 <header> 

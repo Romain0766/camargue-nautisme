@@ -2,7 +2,7 @@
     require('header.php');
     ?>
     <main>
-    <?php
+    <!-- <?php
 
 $req='SELECT * From lieu_location';
 $lieu_location= $conn->query($req);
@@ -41,7 +41,13 @@ foreach($lieu_location as $location){
    
 }
 
-?>
+?> -->
+
+<img src=".\image\standup-paddle.jpeg" alt="">
+<p>APPEL CESZ ERFVZ DEFSEFV</p>
+
+
+
 
     
     </main>    

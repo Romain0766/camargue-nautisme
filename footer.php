@@ -1,11 +1,14 @@
 <body>
 
-    <footer>
+    <footer class="lafin" >
             <nav>
                 <ul>
                     <a href="./index.php"><li>Home</li></a>
+                    <br>
                     <a href="./lieu.php"><li>Lieu</li></a>
+                    <br>
                     <a href="./reservation.php"><li>Reservation</li></a>
+                    <br>
                     <a href="./equipement.php"><li>Equipement</li></a>
                    
                 </ul>
