@@ -3,14 +3,12 @@
     ?>
     <main>
         
-    <h1>equipement</h1>
-
-    <img class="imgheader" src="https://img.hardloop.com/image/upload/v1622797996/articles/id-572-comment-bien-choisir-son-kayak/comment-bien-choisir-son-kayak_yhyy04.jpg" alt="">
+    <img class="imgheader" src="../image/imgheader.jpg" alt="">
 
 <div class="menuHeader">
 <ul class="menu">
-    <li onclick="changerPage('lieu1')" ><a href="#">Lieu 1</a></li>
-    <li onclick="changerPage('lieu2')" ><a href="#">Lieu 2</a></li>
+    <li class="equipementLi"><a onclick="changerPage('lieu1')" href="#">Lieu 1</a></li>
+    <li class="equipementLi"><a onclick="changerPage('lieu2')" href="#">Lieu 2</a></li>
 </ul>
 </div>
 
@@ -54,7 +52,9 @@
     <div class="clear"></div>
 </div>
 
-<script type="text/javascript" src="../test/index.js"></script>
+
+
+<script type="text/javascript" src="./assets/JS/app.js"></script>
 
     </main>    
 

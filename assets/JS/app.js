@@ -13,37 +13,34 @@ function showResponsiveMenu() {
     }
   }
   console.log("hello world!")
+
   
-
   function changerPage(page){
-    console.log(page);
+   
 
-    if (page == 'accueil'){
-        let accueil = document.getElementById('accueil');
+    if (page == 'lieu1'){
+      console.log(page);
+
+        let accueil = document.getElementById('equipements1');
         accueil.style.display = 'block'
-        let photos = document.getElementById('photos');
+        let photos = document.getElementById('equipements2');
         photos.style.display = 'none';
-        let contact = document.getElementById('contact');
-        contact.style.display = 'none';
     } 
 
-    if (page == 'photos'){
-        let accueil = document.getElementById('accueil');
+    if (page == 'lieu2'){
+      console.log(page);
+      
+        let accueil = document.getElementById('equipements1');
         accueil.style.display = 'none'
-        let photos = document.getElementById('photos');
+        let photos = document.getElementById('equipements2');
         photos.style.display = 'block';
-        let contact = document.getElementById('contact');
-        contact.style.display = 'none';
     }
 
-    if (page == 'contact'){
-        let accueil = document.getElementById('accueil');
-        accueil.style.display = 'none'
-        let photos = document.getElementById('photos');
-        photos.style.display = 'none';
-        let contact = document.getElementById('contact');
-        contact.style.display = 'block';
-    }
+}
+
+function zoom(miniature){
+        console.log(miniature);
+        when 
 }
 
 function zoom(miniature){

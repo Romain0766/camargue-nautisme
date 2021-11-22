@@ -329,6 +329,51 @@ h1{
 
 
 
+  .imgheader{
+    width: 100%;
+}
+
+.menuHeader{
+  background: black;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .equipementLi {
+    background-color: #1c1c1c;
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D97247;
+    border-radius: 5px;
+} */
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menuHeader{
+display: block;
+justify-content: center;
+}
+
+.titreEquipements{
+    text-align: center;
+}
+
+.imgEquipements{
+    width: 80%;
+}
+
+
+
+
   @media screen and (max-width: 534px){
 
     .imgheader{
