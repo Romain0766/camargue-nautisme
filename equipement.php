@@ -6,9 +6,9 @@
     <img class="imgheader" src="./image/imgheader.jpg" alt="">
 
 <div class="menuHeader">
-<ul class="menu">
-    <li class="equipementLi"><a onclick="changerPage('lieu1')" href="#">Lieu 1</a></li>
-    <li class="equipementLi"><a onclick="changerPage('lieu2')" href="#">Lieu 2</a></li>
+<ul class="menuEquipement">
+    <a class="aEquipement" onclick="changerPage('lieu1')" href="#">Lieu 1</a>
+    <a class="aEquipement" onclick="changerPage('lieu2')" href="#">Lieu 2</a>
 </ul>
 </div>
 
@@ -16,7 +16,7 @@
 
     <div class="miniature">
         <h2 class="titreEquipements">Kayak simple</h2>
-        <img class="imgEquipements" alt="Kayak simple" src="./image/kayak1.png">
+        <img class="imgEquipements" alt="Kayak simple" src="./image/simplekayak.png">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
     </div>
     <div class="miniature">

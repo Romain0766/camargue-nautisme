@@ -335,32 +335,37 @@ h1{
 
 .menuHeader{
   background: black;
+  color: white;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
 }
 
-/* .equipementLi {
-    background-color: #1c1c1c;
-    width: 50%;
+a.aEquipement{
+  color: white;
+    background-color: #D97247;
+    width: 20%;
     height: 5vh;
+    border-radius: 10px;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    border: 1px solid #D97247;
-    border-radius: 5px;
-} */
+}
 
-.menu li a {
-    color: white;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: center;
+ul.menuEquipement{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .menuHeader{
+  background-color: transparent;
 display: block;
-justify-content: center;
+justify-content: space-around;
 }
 
 .titreEquipements{
@@ -368,7 +373,13 @@ justify-content: center;
 }
 
 .imgEquipements{
-    width: 80%;
+    width: 50%;
+}
+
+.miniature{
+  background-color: thistle;
+  margin: 5%;
+  text-align: center;
 }
 
 
