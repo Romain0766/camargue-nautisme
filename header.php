@@ -14,6 +14,9 @@
 <body>   
   <?php
   require('./include/connexion.php');
+
+  define("ROOT", dirname($_SERVER['PHP_SELF']));
+
   ?>
 
 

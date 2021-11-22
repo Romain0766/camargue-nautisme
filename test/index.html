@@ -1,35 +1,15 @@
-<?php
-    require('header.php');
-    ?>
-    <main>
-    <?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../test/style.css">
+    <title>Document</title>
+</head>
+<body>
 
-    $req='SELECT * From equipement';
-    $liste_equipement= $conn->query($req);
-
-    foreach($liste_equipement as $equipement){
-
-        echo $equipement['e_type'];
-        ?>
-        <br>
-        <?php
-        echo $equipement['e_prix'];
-        ?>
-         <br>
-        <?php
-        echo $equipement['e_description'];
-        ?>
-         <br>
-        <?php
-        echo $equipement['e_info'];
-        ?>
-         <br>
-        <?php
-        echo $equipement['e_photo'];
-    }
-
-    ?>
-    <img class="imgheader" src="https://img.hardloop.com/image/upload/v1622797996/articles/id-572-comment-bien-choisir-son-kayak/comment-bien-choisir-son-kayak_yhyy04.jpg" alt="">
+<img class="imgheader" src="https://img.hardloop.com/image/upload/v1622797996/articles/id-572-comment-bien-choisir-son-kayak/comment-bien-choisir-son-kayak_yhyy04.jpg" alt="">
 
 <div class="menuHeader">
 <ul class="menu">
@@ -79,10 +59,7 @@
 </div>
 
 
-<script type="text/javascript" src="./assets/JS/app.js"></script>
+<script type="text/javascript" src="../test/index.js"></script>
     
-    </main>    
-
-    <?php
-    require('footer.php');
-?>
+</body>
+</html>

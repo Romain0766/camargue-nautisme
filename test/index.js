@@ -1,21 +1,4 @@
-function showResponsiveMenu() {
-    var menu = document.getElementById("topnav_responsive_menu");
-    var icon = document.getElementById("topnav_hamburger_icon");
-    var root = document.getElementById("root");
-    if (menu.className === "") {
-      menu.className = "open";
-      icon.className = "open";
-      root.style.overflowY = "hidden";
-    } else {
-      menu.className = "";                    
-      icon.className = "";
-      root.style.overflowY = "";
-    }
-  }
-  console.log("hello world!")
-  
-  // page equipement 
-  function changerPage(page){
+function changerPage(page){
     console.log(page);
 
     if (page == 'lieu1'){
