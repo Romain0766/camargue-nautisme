@@ -137,6 +137,7 @@ h1{
     background-color: #FCE8E3;
     border-radius: 7px;
 }
+<<<<<<< HEAD
 
 
 footer {
@@ -161,6 +162,9 @@ ul{
     padding: 0px 10px 0 10px;
 
 }
+=======
+    /* ******************** NAV BAR ******************** */
+>>>>>>> 8a1db7e9f462353204ac443f4c57f113088789a7
 .topnav {
     background-color: #333;
     display: flex;
