@@ -14,7 +14,7 @@ h1, h2, h3, h4, p {
 }
 .background{
     background-size: cover;
-    background-image: url(../);
+    background-image: url(../image/standup-paddle.jpeg);
     height: 400px;
     display: flex;
     justify-content: center;
@@ -323,4 +323,47 @@ h1{
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
     }
+
+    
   }
+
+
+
+  @media screen and (max-width: 534px){
+
+    .imgheader{
+        width: 100%;
+    }
+    
+    .menu li {
+        width: 80%;
+        background: #1c1c1c;
+        color: white;
+        padding:10px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menuHeader{
+    display: block;
+    justify-content: center;
+    }
+    
+    .titreEquipements{
+        text-align: center;
+    }
+    
+    .imgEquipements{
+        width: 80%;
+    }
+    
+    
+    }
