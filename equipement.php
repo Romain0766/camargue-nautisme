@@ -3,7 +3,7 @@
     ?>
     <main>
         
-    <img class="imgheader" src="../image/imgheader.jpg" alt="">
+    <img class="imgheader" src="./image/imgheader.jpg" alt="">
 
 <div class="menuHeader">
 <ul class="menu">
@@ -16,12 +16,12 @@
 
     <div class="miniature">
         <h2 class="titreEquipements">Kayak simple</h2>
-        <img class="imgEquipements" alt="Kayak simple" src="../image/kayak1.png">
+        <img class="imgEquipements" alt="Kayak simple" src="./image/kayak1.png">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
     </div>
     <div class="miniature">
         <h2 class="titreEquipements">Kayak double</h2>
-        <img class="imgEquipements" alt="Kayak double" src="../image/kayadouble.png">
+        <img class="imgEquipements" alt="Kayak double" src="./image/kayadouble.png">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
     </div>
     <div class="miniature">
