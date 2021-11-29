@@ -19,7 +19,7 @@
         <img class="imgEquipements"  src="./image/carnon.jpg" alt="">
         <h2 class="titreEquipements">Kayak simple</h2>
         <img class="imgEquipements" alt="Kayak simple" src="./image/simplekayak.png">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
+        <p>30€</p>
         
     <hr  class="Ligne">
     </div>
@@ -28,7 +28,7 @@
     <div class="miniature">
         <h2 class="titreEquipements">Kayak double</h2>
         <img class="imgEquipements" alt="Kayak double" src="./image/kayadouble.png">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+        <p>40€</p>
         
     <hr  class="Ligne">
     </div>
@@ -37,7 +37,7 @@
     <div class="miniature">
         <h2 class="titreEquipements">Paddle</h2>
         <img class="imgEquipements" alt="Paddle" src="./image/standup-paddle.jpeg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+        <p>25€</p>
     </div>
     <div class="clear"></div>
     
@@ -54,7 +54,7 @@
         <img  class="imgEquipements" src="./image/rivedroite.jpg" alt="">
         <h2 class="titreEquipements">Kayak simple</h2>
         <img class="imgEquipements" alt="Kayak simple" src="./image/simplekayak.png">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
+        <p>30€</p>
         
     <hr  class="Ligne">
     </div>
@@ -63,7 +63,7 @@
     <div class="miniature">
         <h2 class="titreEquipements">Kayak double</h2>
         <img class="imgEquipements" alt="Kayak double" src="./image/kayadouble.png">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+        <p>40€</p>
         
     <hr  class="Ligne">
     </div>
@@ -72,7 +72,7 @@
     <div class="miniature">
         <h2 class="titreEquipements">Paddle</h2>
         <img class="imgEquipements" alt="Paddle" src="./image/standup-paddle-group.jpeg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+        <p>25€</p>
     </div>
     <div class="clear"></div>
 
