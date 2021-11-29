@@ -14,7 +14,7 @@ h1, h2, h3, h4, p {
 }
 .background{
     background-size: cover;
-    background-image: url(../);
+    background-image: url(../image/standup-paddle.jpeg);
     height: 400px;
     display: flex;
     justify-content: center;
@@ -323,7 +323,10 @@ h1{
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
     }
+
+    
   }
+
 .row{
   display: flex;
   flex-direction: column;
@@ -369,3 +372,113 @@ h1{
   
   
   }
+=======
+
+
+
+  .imgheader{
+    width: 100%;
+}
+
+.menuHeader{
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+a.aEquipement{
+  color: white;
+    background-color: #D97247;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.menuEquipement{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuHeader{
+  background-color: transparent;
+display: block;
+justify-content: space-around;
+}
+
+.titreEquipements{
+    text-align: center;
+}
+
+.imgEquipements{
+    width: 50%;
+}
+
+.miniature{
+  background-color: transparent;
+  margin: 5%;
+  text-align: center;
+}
+
+.ReserverButton{
+  color: white;
+    background-color: #D97247;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.ResaButton{
+  display: flex;
+  justify-content: center;
+}
+
+  @media screen and (max-width: 534px){
+
+    .imgheader{
+        width: 100%;
+    }
+    
+    .menu li {
+        width: 80%;
+        background: #1c1c1c;
+        color: white;
+        padding:10px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menuHeader{
+    display: block;
+    justify-content: center;
+    }
+    
+    .titreEquipements{
+        text-align: center;
+    }
+    
+    .imgEquipements{
+        width: 80%;
+    }
+    
+    
+    }
