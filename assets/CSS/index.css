@@ -140,7 +140,7 @@ h1{
 
 
 .lafin{
-    background-color: violet;
+    background-color:#D97247;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -363,7 +363,6 @@ ul{
   }
 
   .bandeaux{
-    background-color:turquoise;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -423,62 +422,5 @@ flex: 1 1;
 
 } 
 
-/* ************media queri*********** */
-@media screen and (min-width: 700px) {
 
-.bandeaux img {
-  width: 50%;
-  margin: 10px;
-  animation: anim_lieu 3s linear 4S;
-  animation-iteration-count: 1;
-  filter: brightness(20%);
-}
-
-.bandeaux{
-  background-color:turquoise;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 2 1;
-  position:relative;
-  height:200px
-}
-
-@keyframes anim_texte {
-
-  from { filter: brightness(20%), opacity(10%);}
-
-  to { filter: brightness(100%), opacity(100%);}
-
-}
- #lieutexte{
-  text-align:center;
-  animation: anim_texte 4s linear 2S;
-  animation-iteration-count: 1;
-  position:absolute;
-  top:150px;
-  width:600px;
-  height:400px;
-  z-index:2;
-  font-size:30PX;
-  color: white;
-}
-
-.lieu_maps {
-display: flex;
-}
-
-.lieu_description {
-display: flex;
-flex: 1 1;
-margin: 6px;
-}
-.maps {
-margin: 7px;
-flex: 1 1;
-}  
-
-
-}
 
