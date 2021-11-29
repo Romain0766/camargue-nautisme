@@ -3,6 +3,7 @@
     <main>
         <div class="background">
             <div class="contenuHP">
+            <img class="HomeHeader" src="./image/imgheader.jpg" alt="">
             <h1>Lorem Ipsuim des familles</h1>
             <button class="reservez">Réservez</button>
             </div>

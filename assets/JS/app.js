@@ -13,4 +13,39 @@ function showResponsiveMenu() {
     }
   }
   console.log("hello world!")
-  
+
+  document.getElementById('equipements1').style.display = 'none';
+  document.getElementById('equipements2').style.display = 'none';
+
+  function changerPage(page){
+   
+
+    if (page == 'lieu1'){
+      console.log(page);
+
+        let accueil = document.getElementById('equipements1');
+        accueil.style.display = 'block'
+        let photos = document.getElementById('equipements2');
+        photos.style.display = 'none';
+    } 
+
+    if (page == 'lieu2'){
+      console.log(page);
+      
+        let accueil = document.getElementById('equipements1');
+        accueil.style.display = 'none'
+        let photos = document.getElementById('equipements2');
+        photos.style.display = 'block';
+    }
+
+}
+
+function zoom(miniature){
+        console.log(miniature);
+        when 
+}
+
+function zoom(miniature){
+        console.log(miniature);
+        when 
+}

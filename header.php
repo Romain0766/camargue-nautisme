@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/JS/">
     <link rel="stylesheet" href="./assets/JS/app.js">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
-     <title>header</title>
+     <title>Camargue nautique</title>
 </head>
 
 <body>   
@@ -20,7 +20,7 @@
 <header> 
   <div id="root">
     <div id="topnav" class="topnav">
-      <a id="home_link" class="topnav_link" href="/">home</a>
+      <a id="home_link" class="topnav_link" href="./index.php">HOME</a>
   
       <!-- Classic Menu -->
       <nav role="navigation" id="topnav_menu">
@@ -40,10 +40,11 @@
       <!-- Responsive Menu -->
       <nav role="navigation" id="topnav_responsive_menu">
         <ul>
-          <li><a href="./index.php">home</a></li>
-          <li><a href="./lieu.php">lieu</a></li>
-          <li><a href="./reservation.php">reservation</a></li>
-          <li><a href="./equipement.php">equipement</a></li>
+          <li><a href="./index.php">HOME</a></li>
+          <li><a href="/about">ABOUT</a></li>
+          <li><a href="/contact-us">CONTACT</a></li>
+          <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
+          <li><a href="/terms-and-conditions">TERMS AND CONDITIONS</a></li>
         </ul>
       </nav>
     </div>
