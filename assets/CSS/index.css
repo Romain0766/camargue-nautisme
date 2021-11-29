@@ -377,13 +377,25 @@ justify-content: space-around;
 }
 
 .miniature{
-  background-color: thistle;
+  background-color: transparent;
   margin: 5%;
   text-align: center;
 }
 
+.ReserverButton{
+  color: white;
+    background-color: #D97247;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
 
-
+.ResaButton{
+  display: flex;
+  justify-content: center;
+}
 
   @media screen and (max-width: 534px){
 

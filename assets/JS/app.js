@@ -14,7 +14,9 @@ function showResponsiveMenu() {
   }
   console.log("hello world!")
 
-  
+  document.getElementById('equipements1').style.display = 'none';
+  document.getElementById('equipements2').style.display = 'none';
+
   function changerPage(page){
    
 
