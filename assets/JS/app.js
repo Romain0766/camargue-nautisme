@@ -13,6 +13,13 @@ function showResponsiveMenu() {
     }
   }
   console.log("hello world!")
+  
+  // page equipement 
+  function changerPage(page){
+    console.log(page);
+
+    if (page == 'lieu1'){
+=======
 
   document.getElementById('equipements1').style.display = 'none';
   document.getElementById('equipements2').style.display = 'none';
@@ -30,6 +37,7 @@ function showResponsiveMenu() {
     } 
 
     if (page == 'lieu2'){
+
       console.log(page);
       
         let accueil = document.getElementById('equipements1');
@@ -44,7 +52,7 @@ function zoom(miniature){
         console.log(miniature);
         when 
 }
-
+      
 function zoom(miniature){
         console.log(miniature);
         when 
