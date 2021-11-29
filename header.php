@@ -16,13 +16,13 @@
 <header> 
   <div id="root">
     <div id="topnav" class="topnav">
-      <a id="home_link" class="topnav_link" href="/">home</a>
+      <a id="home_link" class="topnav_link" href="/index.php">home</a>
   
       <!-- Classic Menu -->
       <nav role="navigation" id="topnav_menu">
-        <a class="topnav_link" href="/contact-us">lieu</a>
-        <a class="topnav_link" href="/privacy">reservation</a>
-        <a class="topnav_link" href="/terms-and-condition">equipement</a>
+        <a class="topnav_link" href="/lieu.php">lieu</a>
+        <a class="topnav_link" href="/reservation.php">reservation</a>
+        <a class="topnav_link" href="/equipement.php">equipement</a>
 
       </nav>
   
