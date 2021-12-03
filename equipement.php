@@ -1,35 +1,112 @@
 <?php
     require('header.php');
     ?>
-    <main>
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+  <div class="carousel-item active ">
+        <div class="overlay-image" style="background-image:url(image/image_slide_2.jpg);">
+        </div>
+      <div class="container">
+        <h1>Les meilleurs équipement au meilleur prix</h1>
+        <p>Retrouvez-nous à Carnon et Palavas-les-flots</p>
+        <button class="btn btn-primary">Découvrir</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(image/image_slide_1.jpg);">
+        </div>
+      <div class="container">
+      <h1>Les meilleurs équipement au meilleur prix</h1>
+        <p>Retrouvez-nous à Carnon et Palavas-les-flots</p>
+        <button class="btn btn-primary">Découvrir</button>
+      </div>
+    </div>
+ 
+    <div class="carousel-item ">
+        <div class="overlay-image" style="background-image:url(image/image_slide_3.jpg);">
+        </div>
+      <div class="container">
+      <h1>Les meilleurs équipement au meilleur prix</h1>
+        <p>Retrouvez-nous à Carnon et Palavas-les-flots</p>
+        <button class="btn btn-primary">Découvrir</button>
+      </div>
+    </div>
+   
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+    <main class="tel">
+     
+      
     <?php
 
-    $req='SELECT * From equipement';
+    $req='SELECT * From equipement WHERE e_id=1' ;
     $liste_equipement= $conn->query($req);
 
+    $req1='SELECT * From equipement WHERE e_id=2';
+    $liste_equipement1= $conn->query($req1);
+
+    $req2='SELECT * From equipement WHERE e_id=3';
+    $liste_equipement2= $conn->query($req2);
+
     foreach($liste_equipement as $equipement){
+        ?>
+        <div class="tarif mt-5">
 
-        echo $equipement['e_type'];
-        ?>
-        <br>
+      
+            <div class="tarif_1">
+                <h3><?php echo $equipement['e_type'];?></h3>
+                <span><p><?php echo $equipement['e_prix'] ;?>€</p></span>
+                <p><?php echo $equipement['e_info']?></p>
+                <button class="btn btn-primary">Réserver</button>
+
+
+            </div>
+
+            <?php
+            foreach($liste_equipement1 as $equipement1){
+                ?>
+
+           
+             <div class="tarif_2">
+                <h3><?php echo $equipement1['e_type'];?></h3>
+                <span><?php echo $equipement1['e_prix'] ;?>€</p></span>
+                <p><?php echo $equipement1['e_info']?></p>
+                <button class="btn btn-primary">Réserver</button>
+
+         </div>
         <?php
-        echo $equipement['e_prix'];
-        ?>
-         <br>
+            }
+            ?>
+            <?php
+            foreach($liste_equipement2 as $equipement2){
+            ?>
+
+            <div class="tarif_3">
+                <h3><?php echo $equipement2['e_type'];?></h3>
+                <span><p><?php echo $equipement2['e_prix'] ;?>€</p> </span> 
+                <p><?php echo $equipement2['e_info']?></p>
+                <button class="btn btn-primary">Réserver</button>
+
+            </div>
+
         <?php
-        echo $equipement['e_description'];
-        ?>
-         <br>
-        <?php
-        echo $equipement['e_info'];
-        ?>
-         <br>
-        <?php
-        echo $equipement['e_photo'];
+            }
+            ?>  
+
+    </div>
+        <?php  
     }
-
     ?>
-    <img class="imgheader" src="https://img.hardloop.com/image/upload/v1622797996/articles/id-572-comment-bien-choisir-son-kayak/comment-bien-choisir-son-kayak_yhyy04.jpg" alt="">
+
 
 <div class="menuHeader">
 <ul class="menu">
@@ -40,47 +117,78 @@
 
 <div class="page" id="equipements1">
 
+
+
     <div class="miniature">
-        <h2 class="titreEquipements">Kayak simple</h2>
-        <img class="imgEquipements" alt="Kayak simple" src="https://images.unsplash.com/photo-1504217051514-96afa06398be?crop=entropy&fit=crop&h=400&w=600">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
+        <img src="image/equipement/equipement1.png" alt="">
+        <div class="minia_content">
+            <h2 class="titreEquipements">Kayak simple</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
+            <button class="btn btn-primary">Réserver</button>
+        </div>
+        
+  
+
     </div>
+    <div class="miniature  row-reverse">
+        <img src="image/equipement/equipement2.png" alt="">
+        <div class="minia_content reverse">
+            <h2 class="titreEquipements">Kayak double</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+            <button class="btn btn-primary">Réserver</button>
+        </div>
+   </div>
+
     <div class="miniature">
-        <h2 class="titreEquipements">Kayak double</h2>
-        <img class="imgEquipements" alt="Kayak double" src="https://www.lapechetechnique.fr/wp-content/uploads/2019/05/materiel-peche-kayak-banniere.jpg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
-    </div>
-    <div class="miniature">
-        <h2 class="titreEquipements">Paddle</h2>
-        <img class="imgEquipements" alt="Paddle" src="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?crop=entropy&fit=crop&h=400&w=600">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+        <img src="image/equipement/equipement3.png" alt="">
+        <div class="minia_content">
+            <h2 class="titreEquipements">Paddle</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+            <button class="btn btn-primary">Réserver</button>
+        </div>
     </div>
     <div class="clear"></div>
 </div>
 
 <div class="page" id="equipements2">
 
-    <div class="miniature">
-        <h2 class="titreEquipements">Kayak simple</h2>
-        <img class="imgEquipements" alt="Kayak simple" src="https://www.activ-annecy.fr/wp-content/uploads/2020/05/location-canoe-annecy-1000x1000.jpg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
+    <div class="miniature  row-reverse">
+        <img src="image/equipement/equipement4.png" alt="">
+        <div class="minia_content reverse">
+            <h2 class="titreEquipements">Kayak simple</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut nemo culpa dolorum quos voluptatibus impedit sapiente molestias perferendis, dolores corrupti quae consectetur mollitia officia, sed, ipsam eligendi tenetur voluptatem.</p>
+            <button class="btn btn-primary">Réserver</button>
+        </div>
     </div>
     <div class="miniature">
-        <h2 class="titreEquipements">Kayak double</h2>
-        <img class="imgEquipements" alt="Kayak double" src="https://linknsport.com/img/cms/7_Juillet%202019/photo-1499915174960-6f5340157928.jpeg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
-    </div>
-    <div class="miniature">
-        <h2 class="titreEquipements">Paddle</h2>
-        <img class="imgEquipements" alt="Paddle" src="https://static.fnac-static.com/multimedia/Images/FD/Comete/70353/CCP_IMG_ORIGINAL/867905.jpg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+        <img src="image/equipement/equipement5.png" alt="">
+        <div class="minia_content">
+             <h2 class="titreEquipements">Kayak double</h2>
+             <hr>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+             <button class="btn btn-primary">Réserver</button>
+            </div>
+     </div>
+    <div class="miniature row-reverse">
+        <img src="image/equipement/equipement6.png" alt="">
+        <div class="minia_content reverse">
+            <h2 class="titreEquipements">Paddle</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, adipisci. Error maxime sed deleniti magni pariatur ex illum. Placeat incidunt atque natus fugiat laudantium sequi temporibus iure doloremque porro quam?</p>
+            <button class="btn btn-primary">Réserver</button>
+        </div>
     </div>
     <div class="clear"></div>
 </div>
 
 
 <script type="text/javascript" src="./assets/JS/app.js"></script>
-    
+<script src="include/bootstrap/js/bootstrap.min.js"></script>
+
     </main>    
 
     <?php
