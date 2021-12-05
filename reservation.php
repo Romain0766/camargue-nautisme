@@ -1,8 +1,17 @@
 <?php
     require('header.php');
     ?>
-    
+
+    <div class="mon_background">
+        <div class="contenu_background">
+            <p>- Réservation</p>
+            <h3 class="h3_resa">Réservation simple et rapide dans les plus beaux endroits du Sud avec une equipement fiable</h3>
+        </div>
+       
+    </div>
+
     <main>
+
         <?php
     if(isset($_POST['bouton_envoi_formulaire'])) {
     if(empty($_POST['date']) AND empty($_POST['nom']) AND empty($_POST['telephone'])AND empty($_POST['heure']) ){
@@ -40,9 +49,16 @@ if (isset($_POST ['monmail']) AND filter_var($_POST ['monmail'], FILTER_VALIDATE
 
 
 ?>
-        <form method="post" action="">
-        <h3>S'inscrire comme client </h3>
-        <p> Tous les champs sont obligatoires</p>
+
+        <form class="d-flex align-items-end flex-column mb-5 " method="post" action="">
+            <div class="form_resa rounded-3 mt-n5">
+
+     
+        <div class="titre_form d-flex flex-column align-items-center mt-4 mb-4">
+            <h3>S'inscrire comme client </h3>
+            <p> Tous les champs sont obligatoires</p>
+        </div>
+       
             <div class="formulaire">
                  <?php
                         $req_l='SELECT l_id, l_nom_agence From lieu_location';
@@ -53,11 +69,7 @@ if (isset($_POST ['monmail']) AND filter_var($_POST ['monmail'], FILTER_VALIDATE
                         foreach($lieu_x as $location){
                         ?>
 
-               <!-- <div class="row form-check">
-                    <input class="form-check-input" type="radio" name="lieu" id="<?=$location['l_id']?>" value="<?=$location['l_id']?>"> 
-                    <label class="form-check-label"  for="<?=$location['l_id']?>"><?=$location['l_nom_agence']?></label>
-               </div> -->
-<!-- boodstrop raido -->
+        
                <div class="form-check">
   <input class="form-check-input" type="radio" name="lieu"  id="<?=$location['l_id']?>" value="<?=$location['l_id']?>"  >
   <label class="form-check-label"  for="<?=$location['l_id']?>"><?=$location['l_nom_agence']?></label>
@@ -67,9 +79,9 @@ if (isset($_POST ['monmail']) AND filter_var($_POST ['monmail'], FILTER_VALIDATE
                     } 
                     ?>
 
-               <div class="row">
+               <div class="row form-floating mb-3">
+                    <input class="form-control" type="date" size="25" name="date" id="date" placeholder="date de réservation" value="">   
                     <label for="date">Date</label>
-                    <input type="date" size="25" name="date" id="date" placeholder="date de réservation" value="">
                </div>
 
                <div class="row form-floating mb-3">
@@ -83,23 +95,23 @@ if (isset($_POST ['monmail']) AND filter_var($_POST ['monmail'], FILTER_VALIDATE
                    
             </div>
 
-               <div class="row">
-                    <label for="telephone">Votre numéro de téléphone</label>
-                    <input type="text" size="25" name="telephone" id="lanum" placeholder="Votre numéro de téléphone ici" pattern="[0-9]{10}" value="0000000000">
+               <div class="row form-floating mb-3">
+                    <input class="form-control" type="text" size="25" name="telephone" id="lanum" placeholder="Votre numéro de téléphone ici" pattern="[0-9]{10}">
+                    <label for="telephone">Téléphone</label>
                </div>
-               <div class="row">
+               <div class="row form-floating mb-3">
+                    <input class="form-control" type="time" size="25" name="heure" id="lanum" placeholder="heure" pattern="[0-9]{10}" value="">
                     <label for="heure_arr">Heure d'arrivée</label>
-                    <input type="time" size="25" name="heure" id="lanum" placeholder="heure" pattern="[0-9]{10}" value="">
                </div>
                 
-
-                <select name="equipement" id="equipement-select">
-                <option value="-1">--Faire un choix--</option>
-                    <?php
-                        $req_e='SELECT e_id, e_type From equipement';
-                        $type_equipement= $conn->query($req_e);
+            <div class="row">
+                 <select class="form-select " name="equipement" id="equipement-select">
+                    <option value="-1">--Faire un choix--</option>
+                         <?php
+                            $req_e='SELECT e_id, e_type From equipement';
+                            $type_equipement= $conn->query($req_e);
                         
-                        foreach($type_equipement as $equipement){
+                         foreach($type_equipement as $equipement){
                         ?>
 
                    
@@ -108,11 +120,17 @@ if (isset($_POST ['monmail']) AND filter_var($_POST ['monmail'], FILTER_VALIDATE
                     <?php
                     } 
                     ?>
+                    
                 </select>
+                
+</div>
+              
             </div>
-         
-            <input method="post" type="submit" name="bouton_envoi_formulaire" value="Envoyer les informations" class="btn">
-
+          
+            <div class="row button">
+                <input class="btn btn-primary" method="post" type="submit" name="bouton_envoi_formulaire" value="Réservez" class="btn">
+            </div>
+                   </div>
         </form>
 
         <script src="include/boostrap/JS/bootstrap.min.js"></script>
