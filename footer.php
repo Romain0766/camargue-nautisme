@@ -10,6 +10,9 @@
 <body>
 
     <footer>
+<<<<<<< HEAD
+        <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1N51aSzxASDj1ftwV3cw8Nf7dO5YB310m" width="640" height="480"></iframe> -->
+=======
         <iframe src="https://www.google.com/maps/d/embed?mid=1N51aSzxASDj1ftwV3cw8Nf7dO5YB310m" width="640" height="480"></iframe>
 
 <body>
@@ -31,6 +34,7 @@
         <iframe src="https://www.google.com/maps/d/embed?mid=1N51aSzxASDj1ftwV3cw8Nf7dO5YB310m" width="200" height="150" ></iframe>
         </div>
             
+>>>>>>> 8458abdb517b73e55c5ccb12a471419174a3fc2e
 
     </footer>
 </body>

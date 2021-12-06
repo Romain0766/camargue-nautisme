@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg height="3rem" style="height:3rem;" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D97247;}
-	.st1{enable-background:new    ;}
+	.st1{fill:none;}
 	.st2{fill:#FFF6F3;}
 </style>
 <g>
-	<circle class="st0" cx="20.27" cy="20.18" r="18"/>
+	<circle class="st0" cx="20" cy="20" r="18"/>
 </g>
-<g class="st1">
-	<path class="st2" d="M26.74,26.6h-2.15v3.7h-3.69v-3.7h-7.62v-2.62l7.82-11.52h3.48v11.22h2.15V26.6z M20.91,23.67v-3.03
-		c0-0.5,0.02-1.24,0.06-2.2c0.04-0.96,0.07-1.52,0.1-1.67h-0.1c-0.3,0.67-0.66,1.32-1.09,1.95l-3.27,4.94H20.91z"/>
+<rect x="12.59" y="11.13" class="st1" width="21.41" height="27.87"/>
+<g>
+	<path class="st2" d="M26.75,25.78h-2.41v4.14h-4.13v-4.14h-8.53v-2.94l8.76-12.91h3.9V22.5h2.41V25.78z M20.22,22.5v-3.39
+		c0-0.56,0.02-1.39,0.07-2.46c0.04-1.08,0.08-1.7,0.11-1.87h-0.11c-0.34,0.75-0.74,1.48-1.22,2.19L15.4,22.5H20.22z"/>
 </g>
 </svg>
